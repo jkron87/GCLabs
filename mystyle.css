@@ -119,13 +119,56 @@ a:hover {
 
 /*..................Portfolio...................*/
 
-.portfolio {
-  width: 40%;
-  margin: auto;
-  margin-top: 60px;
+
+.portfoliowell {
+    width: 70%;
+    border-radius: 25px;
+    background-color: #FFF;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 1%;
+    line-height: 1em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+  }
+
+.thumbnail  {
+  width: 30%;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: top;
+
+  }
+
+
+.thumbnail img {
+  width: 100%;
+  margin: 5px;
+  box-shadow: 1px 1px 1px rgba(1, 1, 1, 0.1);
 
 }
 
+.thumbnail img:hover {
+  opacity: 0.8;
+}
+
+.portfoliowell h3 {
+  font-weight:bold;
+  font-family: "Share Tech Mono";
+}
+
+.row1 {
+  display: inline-block;
+  width: 100%;
+}
+
+h4 {
+  font-family: 'Source Sans Pro';
+  font-size: 1em;
+  margin: 5px;
+}
 /*..................Resume...................*/
 
 .resume {
@@ -166,9 +209,33 @@ a:hover {
   font-family: 'Source Sans Pro';
   font-size: 1em;
   margin: 5px;
+  display: none;
 
 }
 
+button {
+    background-color: #FFF;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 1em;
+    font-family: 'Fira Sans';
+    color: #696969;
+    outline: none;
+    margin: 0;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+button:hover {
+  background-color: #F3F2F2;
+}
+
+.indent {
+  padding-left: 60px;
+}
 /*..................Media Queries...................*/
 
 @media (max-width: 700px) {
@@ -233,5 +300,18 @@ a:hover {
     font-size: 1em;
   }
 
+
+}
+
+/*..................Footer...................*/
+
+footer {
+  height: 80px;
+  width: 100%;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  margin-bottom: -50px;
+  background-color: white;
 
 }

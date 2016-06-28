@@ -4,6 +4,12 @@
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Share+Tech+Mono" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
+
+
 </head>
 <body>
   <div class="background">
@@ -28,13 +34,12 @@
       </div>
     </div>
   </nav>
-</body>
 <div class="resume">
   <div class="resumewell">
       <div class="underline">
       <h3> Education </h3>
     </div>
-      <div class="resumeindent">
+      <div class="resumeindent indent">
         <h4>
           <ul>
             <li class="resheader">
@@ -63,8 +68,9 @@
           <h4>
             <ul>
               <li class="resheader">
-                Spanish Instructor, Saline Area Schools, 2013-2016 </li>
-                <ul class="details">
+
+                <button id="hide1">+</button> Spanish Instructor, Saline Area Schools, 2013-2016 </li>
+                <ul class="details" id="spanish1">
                   <li>Designed and implemented daily lessons for 24 different
                     elementary classes </li>
                   <li> Managed student behavior, paperwork, and presentations
@@ -77,15 +83,17 @@
                     research-based methods and cloud-based technology </li>
                   <li> Designed, maintained and updated a class website weekly </li>
                 </ul>
-              <li class="resheader"> Property Manager, Ann Arbor, MI, 2013-Present</li>
-                <ul class="details">
+              <li class="resheader">
+                  <button id="hide2">+</button> Property Manager, Ann Arbor, MI, 2013-Present</li>
+                <ul class="details" id="spanish2">
                   <li>Designed marketing materials, and developed manuals and
                   city guides to maximize the guest experience</li>
                   <li> Managed customer communications, booking and logistics
                     via Airbnb for over 100 aibnb guests </li>
                 </ul>
-              <li class="resheader">Spanish Instructor, Birminghan Pblic Schools, 2011-2013</li>
-                <ul class="details">
+              <li class="resheader">
+                <button id="hide3">+</button> Spanish Instructor, Birmingham Public Schools, 2011-2013</li>
+                <ul class="details" id="spanish3">
                   <li>Developed and implemented lessons plans for 11 different
                     classes between three different schools in the district </li>
                   <li>Collaborated with teachers across grade levels and
@@ -102,18 +110,23 @@
           <div class="resumeindent">
             <h4>
               <ul>
-                <li class="resheader"> Design and Tools </li>
-                  <ul class="details">
+                <li class="resheader">
+                  <button id="hide4">+</button> Design and Tools </li>
+                  <ul class="details" id="design">
                     <li>Photoshop, Illustrator, Google Apps, Microsoft Office, JavaScript, HTML5, CSS3</li>
                   </ul>
-                <li class="resheader"> Other </li>
-                  <ul class="details">
+                <li class="resheader">
+                  <button id="hide5">+</button> Other </li>
+                  <ul class="details" id="other">
                     <li>Professional photography, Fluent in Spanish, Customer Service, Event Planning</li>
                   </ul>
               </ul>
             </h4>
           </div>
-  </div>
+        </div>
+      </div>
 
-</div>
+
+</body>
+
 </html>
