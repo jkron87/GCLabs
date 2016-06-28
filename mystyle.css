@@ -83,6 +83,8 @@ a:hover {
   position: fixed;
   top: 0;
   left: 0;
+  box-sizing: border-box;
+  overflow: hidden;
 
 }
 
@@ -98,7 +100,7 @@ a:hover {
   float: right;
   padding-right: 10%;
   padding-top: 0px;
-  height: 70px;
+  background-size: cover;
   margin: -5px;
 }
 
@@ -227,6 +229,7 @@ button {
     margin: 0;
     padding: 0 10px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 button:hover {
