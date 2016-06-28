@@ -1,8 +1,5 @@
 body {
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 40px;
+  margin: 0;
   font-family: 'Fira Sans';
   color: #696969;
 }
@@ -19,6 +16,8 @@ h2 {
   font-family: 'Share Tech Mono';
   text-shadow: 1px 1px 1px #7E7E7E;
   padding: 0px;
+  margin: 0;
+  display: inline-block;
 }
 
 h3 {
@@ -70,6 +69,7 @@ a:hover {
 .profile {
   width: 50%;
   border-radius: 50%;
+  margin: 20px;
 }
 
 /*..................Navegation...................*/
@@ -306,12 +306,26 @@ button:hover {
 /*..................Footer...................*/
 
 footer {
-  height: 80px;
+  height: 60px;
   width: 100%;
   bottom: 0;
   padding: 0;
   margin: 0;
+  margin-top: 70px;
   margin-bottom: -50px;
-  background-color: white;
+  text-align: center;
+
+}
+
+footer ul li {
+  list-style: none;
+  display: inline;
+  font-size: 1.5em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer ul li a i {
+  color: #CD68FF;
 
 }
