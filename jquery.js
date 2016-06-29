@@ -18,5 +18,4 @@ $(document).ready(function(){
     $("#hide5").click(function(){
         $("#other").toggle();
     });
-
 });
